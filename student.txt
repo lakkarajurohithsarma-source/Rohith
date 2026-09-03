@@ -1,5 +1,5 @@
 class student:
-    Name = "KPRIT"
+    Name = "cse"
     Age = 18
     RollNo = 156
     def read(self):
