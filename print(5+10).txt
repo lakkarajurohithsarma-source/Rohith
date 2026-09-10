@@ -1,0 +1,5 @@
+print(5+10)
+print("Hello"+" WORLD")
+
+print(5*10)
+print(3*"Hai")
