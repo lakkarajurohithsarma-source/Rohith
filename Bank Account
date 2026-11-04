@@ -1,0 +1,23 @@
+class Bank_Account:
+    AccountHolderName="ram"
+    AccountNumber=123456789
+    Balance=50000
+    def deposit(self,Amount,Total_Balance):
+        amount=10000
+        Total_Balance=amount + self.Balance
+        print("Total_Balance")
+    def withdravel(self,amount):
+        amount=10000
+        print("amount")
+    def Display_Balance(self):
+        if(self.Balances==0):
+            print("not found")
+        else:
+            print("self.Balance")
+SBI= Bank_Account()
+print("AccountHolderName")
+print("AccountNumber")
+print("Balance")
+SBI.deposit()
+SBI.withdravel()
+SBI.Display_Balance()
