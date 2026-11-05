@@ -1,0 +1,34 @@
+class Shape:
+    pass  # Base class can remain empty or contain shared methods
+
+class Circle(Shape):  # Capitalized class name for PEP 8 styling
+    radius = 5
+    
+    def area(self):  # Removed unused parameter, used 'self' properly, lowercased method name
+        a = 3.14 * self.radius * self.radius
+        print(a)
+
+class Rectangle(Shape):  # Fixed capitalization to match instantiation
+    length = 5
+    breadth = 6  # Fixed typo ('breath' to 'breadth') and removed the comma
+    
+    def area(self):  # Removed unused parameter
+        r = self.length * self.breadth
+        print(r)
+
+class Triangle(Shape):
+    breadth = 7  # Fixed typo ('breath')
+    height = 8
+    
+    def area(self):  # Removed unused parameter
+        t = 0.5 * self.breadth * self.height
+        print(t)
+
+# Instantiation and method calls
+c = Circle()
+r = Rectangle()
+t = Triangle()
+
+c.area()
+r.area()
+t.area()
