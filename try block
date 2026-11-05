@@ -1,0 +1,8 @@
+# exceptionhandling
+
+a = int(input("enter a = "))
+b = int(input("Enter b = "))
+try:
+    print(a / b)
+except:
+    print("Invalid Input")
