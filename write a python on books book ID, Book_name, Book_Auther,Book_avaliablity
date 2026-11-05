@@ -1,0 +1,25 @@
+class Book:
+    # Class attributes
+    Book_Id = "9123813112541"
+    Book_Name = "Python"
+    B_Author = "Unknown"
+    B_Availability = "Yes"
+
+    def display_Book(self):
+        print(self.Book_Id)
+        print(self.Book_Name)
+        print(self.B_Author)
+        print(self.B_Availability)
+
+    def issue_book(self):
+        book_name = input("Enter Book Name: ")
+        print(book_name, "Issued")
+
+    def Return_Book(self):
+        print("Book is Returned")
+
+# Object creation and method calls
+B = Book()
+B.display_Book()
+B.issue_book()
+B.Return_Book()
